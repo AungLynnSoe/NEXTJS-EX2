@@ -27,23 +27,9 @@ export default function StrengthsPage() {
         </p>
       </section>
 
-      {/* 探究心 */}
-      <section className={styles.strengthSection}>
-        <h3 className={styles.subHeading}>探究心</h3>
-        <p className={styles.strengthText}>
-          興味を持ったことや疑問に思ったことは徹底的に調べずにはいられません。
-          「蝶番の歴史を調べたら江戸時代まで遡ってしまった」など、好奇心旺盛です。
-        </p>
-      </section>
+     
 
-      {/* 言語 */}
-      <section className={styles.strengthSection}>
-        <h3 className={styles.subHeading}>言語</h3>
-        <p className={styles.strengthText}>
-          英語を日常会話レベルで話せます。さらに、○○方言の知識もあり、
-          旅行先でコミュニケーションをとるのが得意です。
-        </p>
-      </section>
+      
       <section className={styles.strengthSection}>
         <h3 className={styles.subHeading}>優しさ</h3>
         <p className={styles.strengthText}>
