@@ -97,3 +97,73 @@
   
  */
 }
+@media (max-width: 960px) {
+  .container {
+    max-width: 90%;
+    padding: 40px 15px;
+  }
+
+  .contentBox {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: static;
+  }
+
+  .textBox {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform: none;
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .imageWrapper {
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+
+  .textBox p {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  .textBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .textBox h2 {
+    font-size: 1.5rem;
+  }
+
+  .textBox p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .readMore {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .image {
+    border-radius: 12px;
+  }
+}
