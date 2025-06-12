@@ -12,7 +12,7 @@ export default function WorkPage() {
         <li className={styles.workItem}>
           <h3>作品名 1</h3>
           <p>一年生の時に作ったサイトです</p>
-          <Link href="https://github.com/AungLynnSoe/TRAVELLING" className={styles.link}>
+          <Link href="htravelling-lixb3vwe6-w24002s-projects.vercel.app" className={styles.link}>
             GitHub リポジトリはこちら
           </Link>
         </li>
