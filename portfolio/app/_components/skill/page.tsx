@@ -16,32 +16,54 @@ export default function SkillPage() {
       <div>
         <ul className={styles.skillList}>
           <li>
-            <Image src="/images/html.png" alt="ロゴ" width={50} height={50} />
-            <strong>HTML</strong>
+            <h4>HTML&CSS</h4>
+            <Image src="/images/html.png" alt="ロゴ" width={80} height={60} />
+            
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              officiis dolore temporibus optio, non similique vero assumenda
+              modi accusantium, quaerat fugiat ipsa et saepe? Veritatis facere
+              fuga magni consequuntur dolores!
+            </p>
           </li>
+          
           <li>
-            <Image src="/images/css.png" alt="ロゴ" width={50} height={50} />
-            <strong>CSS</strong>
-          </li>
-          <li>
+            <h4>JavaScript</h4>
             <Image
               src="/images/javascript.png"
               alt="ロゴ"
-              width={50}
-              height={50}
+              width={80}
+              height={60}
             />
-            <strong>JavaScript</strong>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              eum minima! A sit aperiam impedit, quia nemo doloremque officiis
+              fugiat? Facilis debitis nihil voluptatibus voluptas culpa! Facilis
+              ipsa tenetur aliquid.
+            </p>
           </li>
           <li>
-            <Image src="/images/java.png" alt="ロゴ" width={50} height={50} />
-            <strong>JAVA</strong>
+            <h4>Java</h4>
+            <Image src="/images/java.png" alt="ロゴ" width={80} height={60} />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Explicabo maiores provident accusantium soluta, ipsum doloremque
+              repellat recusandae molestiae veritatis esse odit est dignissimos
+              illo nulla et libero laboriosam mollitia? Tempora.
+            </p>
           </li>
           <li>
-            <Image src="/images/nextjs.png" alt="ロゴ" width={50} height={50} />
-            <strong>Next.js</strong>
+            <h4>Next.js</h4>
+            <Image src="/images/nextjs.png" alt="ロゴ" width={80} height={60} />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              assumenda totam in deserunt delectus facilis officia voluptas
+              atque, sint debitis quidem ipsa laborum quod, eos, deleniti nihil
+              cupiditate ipsam modi?
+            </p>
           </li>
 
-          {/* 自分の学習中・習得済み技術をリストで追加 */}
+          
         </ul>
       </div>
     </main>

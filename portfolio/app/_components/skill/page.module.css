@@ -15,7 +15,6 @@
   margin-bottom: 4rem;
 }
 
-
 .skillList {
   padding-left: 0.5rem;
   font-size: 6rem;
@@ -26,14 +25,16 @@
   flex-wrap: wrap;
   list-style: none;
   align-items: center;
-  
+  object-fit:cover ;
 }
- .skillList li {
+.skillList li {
   display: flex;
-  align-items: center;
+
   gap: 0.5rem;
   font-size: 1.1rem;
+  flex-direction: column;
 }
+
 @media (max-width: 960px) {
   .container {
     max-width: 80%;
@@ -60,7 +61,6 @@
     font-size: 1rem;
   }
 }
-
 
 @media (max-width: 414px) {
   .container {
@@ -92,4 +92,3 @@
     text-align: center;
   }
 }
-
