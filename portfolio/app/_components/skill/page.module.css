@@ -14,12 +14,6 @@
   font-size: 1rem;
   margin-bottom: 4rem;
 }
-/* .skillList {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-} */
 
 
 .skillList {
@@ -40,11 +34,62 @@
   gap: 0.5rem;
   font-size: 1.1rem;
 }
+@media (max-width: 960px) {
+  .container {
+    max-width: 80%;
+    padding: 1rem;
+  }
 
- /* .skillList {
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; 
-  list-style: none; 
-} */
+  .heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .skillList {
+    font-size: 4rem;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .skillList li {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .skillList {
+    font-size: 2.5rem;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .skillList li {
+    font-size: 0.9rem;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
