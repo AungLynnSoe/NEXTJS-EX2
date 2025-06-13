@@ -1,14 +1,10 @@
-
-
-
- .header {
+.header {
   background-color: whie;
-   padding: 20px;
-  position: fixed; 
+  padding: 20px;
+  position: fixed;
   width: 100%;
   z-index: 1000;
-   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    /* top: 0; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navLinks.navLinks {
@@ -25,7 +21,7 @@
 
 .navLinks li a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-weight: bold;
   font-size: 1.1rem;
   border-bottom: 2px solid transparent;
@@ -35,4 +31,52 @@
 .navLinks li a:hover {
   border-bottom: 2px solid #0070f3;
   color: #0070f3;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100; /* メニューより上に表示 */
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navLinks.open {
+    display: flex;
+  }
+
+  .navLinks ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navLinks.navLinks {
+    margin-left: 0;
+  }
 }

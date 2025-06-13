@@ -69,3 +69,84 @@
 .hobbyText {
   margin-top: 0.5rem;
 }
+@media (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px;
+    max-width: 100%;
+  }
+
+  .profileSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .profileImage {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hobbyList {
+    justify-content: center;
+  }
+
+  .hobbyImage {
+    width: 200px;
+    height: 130px;
+    margin: 10px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .subHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .container {
+    padding: 30px 10px;
+    margin-top: 30px;
+  }
+
+  .profileImage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .subHeading {
+    font-size: 1.1rem;
+  }
+
+  .hobbyImage {
+    width: 400px;
+    height: 400px;
+    margin: 10px 0;
+  }
+
+  .hobbyList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileText p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .hobbyText {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
