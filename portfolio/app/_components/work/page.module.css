@@ -31,3 +31,57 @@
   color: #0070f3;
   text-decoration: none;
 }
+@media (max-width: 960px) {
+  .container {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .workItem {
+    padding-bottom: 1rem;
+  }
+
+  .link {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 95%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .workItem {
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .link {
+    font-size: 0.85rem;
+    word-break: break-word; /* URLが長くても折り返すように */
+  }
+}
