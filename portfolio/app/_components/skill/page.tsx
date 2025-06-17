@@ -17,13 +17,27 @@ export default function SkillPage() {
         <ul className={styles.skillList}>
           <li>
             <h4>HTML&CSS</h4>
-            <Image src="/images/html.png" alt="ロゴ" width={80} height={60} />
+            <Image src="/images/html&ss.png" alt="ロゴ" width={80} height={60} />
 
             <p>
               私はHTMLとCSSを使って、見やすく整ったWebページを作成することができます。レスポンシブ対応や基本的なアニメーションの実装にも対応しており、スマートフォンやタブレットでも快適に閲覧できるデザインを意識しています。
               また、SassやFlexbox、Gridレイアウトなども活用し、保守性の高いコードを書くことを心がけています。
             </p>
           </li>
+          {/* {data.contents.map((skill)) =>(
+            <p className={styles.id} className ={styles.list}></p>
+            <Image
+            src={Skill.image.url}
+            alt=""
+            width={Skill.image.width}
+            height={Skill.image.height}
+            className={styles.image}
+            />
+            <dl>
+
+            </dl> */}
+          {/* )
+          } */}
 
           <li>
             <h4>JavaScript</h4>
