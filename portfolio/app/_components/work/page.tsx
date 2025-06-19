@@ -13,12 +13,13 @@ export default function WorkPage() {
           <h3>作品名 1</h3>
           <p>一年生の時に作ったサイトです</p>
           <Link href="https://travelling-topaz.vercel.app/" className={styles.link}>
+          vercel のリンクはこちらです
             
           </Link>
         </li>
         <li className={styles.workItem}>
           <h3>作品名 2</h3>
-          <p>Next.js を使ったポートフォリオサイト</p>
+          <p>Next.js を使ったポートフォリオサイトです</p>
           <Link href="https://github.com/AungLynnSoe/NEXTJS-EX2/tree/main/portfolio" className={styles.link}>
             GitHub リポジトリはこちら
           </Link>
