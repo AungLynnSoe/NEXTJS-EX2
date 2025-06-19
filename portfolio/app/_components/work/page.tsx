@@ -13,7 +13,7 @@ export default function WorkPage() {
         <li className={styles.workItem}>
           <h3>作品名 1</h3>
           <p>
-            一年生の時に作ったサイトです 一年生の時に作ったサイトです。
+            一年生の時に作ったサイトです。
             HTMLとCSSの基礎を学びながら制作しました。
             レイアウトや配色、ナビゲーションの作り方など、Web制作の基本を実践的に身につけた初めての作品です。
           </p>
