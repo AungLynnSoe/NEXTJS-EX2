@@ -13,7 +13,7 @@ export default function WorkPage() {
           <h3>作品名 1</h3>
           <p>一年生の時に作ったサイトです</p>
           <Link href="https://travelling-topaz.vercel.app/" className={styles.link}>
-            GitHub リポジトリはこちら
+            
           </Link>
         </li>
         <li className={styles.workItem}>
