@@ -2,40 +2,45 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./index.module.css";
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className={styles.header}>
-      {/* <div className={styles.logo}>MySite</div> */}
       <button className={styles.hamburger} onClick={toggleMenu}>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
       </button>
+
       <nav className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
         <ul>
           <li>
-            <Link href="/">Home</Link>{" "}
-          </li>
-
-          <li>
-            <Link href="#about">About</Link>
+            <Link href="/" onClick={closeMenu}>Home</Link>
           </li>
           <li>
-            <Link href="#profile">Profile</Link>
+            <Link href="#about" onClick={closeMenu}>About</Link>
           </li>
           <li>
-            <Link href="#work">Work</Link>
+            <Link href="#profile" onClick={closeMenu}>Profile</Link>
           </li>
           <li>
-            <Link href="#skill">Skill</Link>
+            <Link href="#work" onClick={closeMenu}>Work</Link>
           </li>
           <li>
-            <Link href="#strengths">Strengths</Link>
+            <Link href="#skill" onClick={closeMenu}>Skill</Link>
+          </li>
+          <li>
+            <Link href="#strengths" onClick={closeMenu}>Strengths</Link>
           </li>
         </ul>
       </nav>
