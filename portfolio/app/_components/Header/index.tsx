@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>portfolio</div>
+      
       <button className={styles.hamburger} onClick={toggleMenu}>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
