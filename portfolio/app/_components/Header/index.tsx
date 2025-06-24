@@ -16,6 +16,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
+      <div className={styles.logo}>portfolio</div>
       <button className={styles.hamburger} onClick={toggleMenu}>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
@@ -25,22 +26,34 @@ export default function Header() {
       <nav className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
         <ul>
           <li>
-            <Link href="/" onClick={closeMenu}>Home</Link>
+            <Link href="/" onClick={closeMenu}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="#about" onClick={closeMenu}>About</Link>
+            <Link href="#about" onClick={closeMenu}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href="#profile" onClick={closeMenu}>Profile</Link>
+            <Link href="#profile" onClick={closeMenu}>
+              Profile
+            </Link>
           </li>
           <li>
-            <Link href="#work" onClick={closeMenu}>Work</Link>
+            <Link href="#work" onClick={closeMenu}>
+              Work
+            </Link>
           </li>
           <li>
-            <Link href="#skill" onClick={closeMenu}>Skill</Link>
+            <Link href="#skill" onClick={closeMenu}>
+              Skill
+            </Link>
           </li>
           <li>
-            <Link href="#strengths" onClick={closeMenu}>Strengths</Link>
+            <Link href="#strengths" onClick={closeMenu}>
+              Strengths
+            </Link>
           </li>
         </ul>
       </nav>

@@ -33,6 +33,9 @@
     #00000010,
     #00000080
   );
+  html {
+  scroll-behavior: smooth;
+}
 
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;

@@ -1,4 +1,20 @@
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 1rem;
+  cursor: default;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05); 
+}
 .header {
+  justify-content: space-between; 
   background-color: whie;
   padding: 20px;
   position: fixed;
@@ -7,10 +23,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navLinks.navLinks {
+.navLinks {
   margin: 8px 0;
   margin-left: 50%;
 }
+
 
 .navLinks ul {
   list-style: none;
