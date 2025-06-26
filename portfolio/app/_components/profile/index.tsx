@@ -24,6 +24,13 @@ export default function Profile() {
             </p>
             <p>
               <strong>国籍：</strong>ミャンマー
+              <Image
+                src="/images/myanmar.png"
+                alt="ミャンマー"
+                width={20}
+                height={14}
+                style={{ marginLeft: "5px", verticalAlign: "middle" }}
+              />
             </p>
             <p>
               <strong>学校：</strong>
