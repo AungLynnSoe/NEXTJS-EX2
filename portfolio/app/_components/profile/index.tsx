@@ -16,7 +16,7 @@ export default function Profile() {
           />
           <div className={styles.profileText}>
             <p>
-              <strong>名前：</strong>アインリンソー (<strong>ソー</strong>{" "}
+              <strong>名前：</strong>アウンリンソー (<strong>ソー</strong>{" "}
               と読んで下さい)
             </p>
             <p>
