@@ -53,7 +53,7 @@ export default function Profile() {
             </p>
             <article className={styles.hobbyItem}>
               <Image
-                src="/images/football.jpg"
+                src="/images/golden.jpg"
                 alt="サッカーの試合を見ること"
                 width={400}
                 height={350}
