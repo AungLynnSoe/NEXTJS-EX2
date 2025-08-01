@@ -26,9 +26,8 @@
 
 .textBox {
   background: rgba(34, 62, 80, 0.4);
-  
 
-  font-family: Arial,  sans-serif;
+  font-family: Arial, sans-serif;
   border-radius: 12px;
 
   flex: 1;
@@ -100,6 +99,9 @@
     max-width: 90%;
     padding: 40px 15px;
   }
+    .removeButton {
+    display: none;
+  }
 
   .contentBox {
     flex-direction: column;
@@ -141,6 +143,7 @@
   .container {
     padding: 20px 10px;
   }
+
 
   .textBox {
     padding: 15px;
