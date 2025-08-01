@@ -6,7 +6,7 @@ export default function WorkPage() {
     <main id="work" className={styles.container}>
       <h2 className={styles.heading}>Work</h2>
       <p className={styles.text}>
-        一年生の時に作ったサイトと、最近制作したポートフォリオサイトを紹介します。
+        一年生の時に作ったサイトと、最近制作したポートフォリオサイト と注文アプリを紹介します。
         初めての制作から、現在学んでいる技術を活かしたものまで、自分の成長を感じられる作品たちです。
       </p>
       <ul className={styles.workList}>
